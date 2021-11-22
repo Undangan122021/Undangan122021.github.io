@@ -444,6 +444,39 @@ ol li {
     width: 213px;
 }
 
+.open {
+    position: fixed;
+    top: 0;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background: #ddc7af;
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.open__content {
+    text-align: center;
+}
+
+.open__content img {
+    width: 300px;
+    z-index: 5;
+}
+
+.open__content button {
+    border: none;
+    background: #272828;
+    color: #ffffff;
+    padding: 15px 25px;
+    border-radius: 5px;
+    margin-top: 40px;
+    cursor: pointer;
+    outline: none;
+}
+
 @media (max-width:550px) {
     .undangan {
         background: #ddc7af;
