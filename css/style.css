@@ -548,6 +548,11 @@ ol li {
         background: #ddc7af;
         padding-bottom: 50px;
     }
+    .undangan2__wrap {
+        width: 325px;
+        position: relative;
+        margin: 0px auto;
+    }
     .undangan2__obj1 {
         position: absolute;
         top: -108px;
@@ -563,12 +568,12 @@ ol li {
         right: 0;
         text-align: center;
         margin: auto;
-        padding: 0% 6%;
+        padding: 0% 0%;
     }
     .undangan2__title {
         text-align: center;
-        padding-top: 30px;
-        padding-bottom: 0px;
+        padding-top: 25px;
+        padding-bottom: 6px;
     }
     .undangan2__title img {
         width: 277px;
@@ -606,7 +611,7 @@ ol li {
     }
     .undangan2__date {
         display: flex;
-        padding: 3px 5%;
+        padding: 3px 0%;
         margin: 0px 7%;
         justify-content: space-between;
     }
